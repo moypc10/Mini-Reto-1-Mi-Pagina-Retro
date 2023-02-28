@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+    --background: color(135deg, #667eea7e 0%, #764ba298 100%);
+    --color-primary: #667eea7e;
+    --color-secondary: #764ba2;
+    --boton-padding: 20px 40px;
+}
+
+body{
+    background-color: #7e7c7c;
+    font-family: 'Press Start 2P', cursive;
+    color:#fff;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+}
+
+.navv{
+    display:flex;
+    justify-content:flex-start;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav__items{
+    color: #203aac;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.hero__title{
+    font-size: 2.5rem;
+    color: #203aac;
+}
+
+.title{
+    text-align: center;
+    font-size: 10rem;
+    color: #203aac;
+}
+
+/* Main*/
+
+.projects__img{
+    align-items: center;
+}
+
+.paragraph{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* Abajo */
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items--footer{
+    padding: 10px;
+}
+
+.footer{
+    background: #203aac;
+}
+
+.footer__grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.footer__title{
+    font-weight:400;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__container-icons{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.footer__icon{
+    color:inherit;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.fa-brands.footer__icon{
+    line-height: 60px;
+}
